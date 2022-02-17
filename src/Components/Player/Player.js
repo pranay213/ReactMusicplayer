@@ -28,7 +28,7 @@ export default function Player() {
 
   useEffect(()=>
   {
-    axios.get('http://vinayk.epizy.com/index.php').then((res)=>{
+    axios.get('https://pranay2.herokuapp.com/').then((res)=>{
       setSongs(res.data)  
          
       
