@@ -28,7 +28,7 @@ export default function Player() {
 
   useEffect(()=>
   {
-    axios.get('https://vinayk.epizy.com/index.php').then((res)=>{
+    axios.get('http://localhost/api/').then((res)=>{
       setSongs(res.data)  
          
       
